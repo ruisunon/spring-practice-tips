@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/powerful-spring.iml" filepath="$PROJECT_DIR$/powerful-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/powerfulspring.iml" filepath="$PROJECT_DIR$/powerfulspring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-zuul.iml" filepath="$PROJECT_DIR$/spring-zuul.iml" />
+    </modules>
+  </component>
+</project>
