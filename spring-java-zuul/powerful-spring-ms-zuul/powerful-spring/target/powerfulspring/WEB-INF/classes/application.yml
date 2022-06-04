@@ -1,0 +1,41 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /powerfulspring
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: password
+    url: jdbc:postgresql://localhost:5432/testing
+    platform: postgres
+    initialization-mode: always
+    continue-on-error: true
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    database: postgresql
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+---
+spring:
+  profiles: dev
+  datasource:
+    username: postgres
+    password: password
+    url: jdbc:postgresql://localhost:5432/testing
+  jpa:
+    show-sql: true
+---
+spring:
+  profiles: qa
+  datasource:
+    username: postgres
+    password: password
+    url: jdbc:postgresql://localhost:5432/testing

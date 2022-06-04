@@ -1,0 +1,3 @@
+shareCode,companyName,qty,amount,type
+203,tcs,210,333.33,1
+204,L&T,23,66.4,0

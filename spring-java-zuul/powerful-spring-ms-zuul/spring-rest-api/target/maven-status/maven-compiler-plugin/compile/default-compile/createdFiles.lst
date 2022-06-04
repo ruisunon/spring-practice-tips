@@ -1,0 +1,6 @@
+com\mightyjava\service\BookService.class
+com\mightyjava\Application.class
+com\mightyjava\resource\impl\BookResourceImpl.class
+com\mightyjava\service\impl\BookServiceImpl.class
+com\mightyjava\domain\Book.class
+com\mightyjava\resource\Resource.class
